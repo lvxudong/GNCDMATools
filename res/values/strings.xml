@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AdvanceSettingActivity!</string>
+    <string name="app_name">GN CDMA Tools</string>
+    <string name="app_title">GN CDMA AdvanceSetting</string>
+	<string name="diagmode">DIAG Mode</string>
+	<string name="diagon">DIAG is On</string>
+	<string name="diagoff">DIAG is Off</string>
+	<string name="app_name_operator">OperatorInfo</string>
+	<string name="about">about</string>
+	<string name="version">1.2</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <SwitchPreference 
+        android:title="@string/diagmode" 
+        android:summaryOn="@string/diagon"
+        android:summaryOff="@string/diagoff"
+        android:key="diagSwitch"/>
+    <Preference
+        android:title="运营商信息"
+        android:summary="查看当前运营商信息">
+        <intent
+             android:action="android.intent.action.VIEW"
+             android:targetPackage="com.lvxudong.advancesetting"
+             android:targetClass="com.lvxudong.advancesetting.OperateInfoActivity" /> 
+  	</Preference>
+  	<Preference 
+  	    android:key="repair3g"
+  	    android:title="一键修复3G"
+  	    android:summary="V版ROM 3G补丁"/>
+	<CheckBoxPreference
+	    android:title="启用3G上传修复" 
+        android:key="uploadfix"/>
+  	<Preference 
+        android:key="about"
+        android:title="@string/about"
+        />
+    
+    
+
+</PreferenceScreen>
